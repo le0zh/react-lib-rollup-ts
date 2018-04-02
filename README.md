@@ -5,3 +5,10 @@
 - TypeScript
 - Rollup as module bundle
 - CSS: PostCSS + CSS Module
+
+
+#### Build
+
+```
+npm run build
+```

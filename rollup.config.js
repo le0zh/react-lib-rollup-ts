@@ -26,11 +26,11 @@ export default {
   plugins: [
     external(),
     postcss({
-			// extract: true,  // extracts to `${basename(dest)}.css`
-			plugins: [autoprefixer()],
-			writeDefinitions: true,
-			// modules: { ... }
-		}),
+      // extract: true,  // extracts to `${basename(dest)}.css`
+      plugins: [autoprefixer()],
+      writeDefinitions: true,
+      // modules: { ... }
+    }),
     typescript({
       clean: true,
       typescript: require('typescript'),
